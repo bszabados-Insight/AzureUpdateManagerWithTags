@@ -26,6 +26,7 @@ param VmWindows_2019DC bool = true
 param VmWindows_2016 bool = true
 
 param adminUsername string = 'User01'
+@secure()
 param adminPassword string = 'HelloFromPatching!)1=&1154'
 
 
