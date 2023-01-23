@@ -86,7 +86,7 @@ resource Runbook_ScheduleUpdatesWithVmsTags 'Microsoft.Automation/automationAcco
     logVerbose: false
     logActivityTrace: 0
     publishContentLink: {
-      uri: 'https://raw.githubusercontent.com/dawlysd/azure-update-management-with-tags/main/runbooks/UM-ScheduleUpdatesWithVmsTags.ps1'      
+      uri: 'https://raw.githubusercontent.com/bszabados-Insight/AzureUpdateManagerWithTags/main/runbooks/UM-ScheduleUpdatesWithVmsTags.ps1'      
     }
   }
 }
@@ -100,7 +100,7 @@ resource Runbook_PreTasks 'Microsoft.Automation/automationAccounts/runbooks@2019
     logVerbose: false
     logActivityTrace: 0
     publishContentLink: {
-      uri: 'https://raw.githubusercontent.com/dawlysd/azure-update-management-with-tags/main/runbooks/UM-PreTasks.ps1'
+      uri: 'https://raw.githubusercontent.com/bszabados-Insight/AzureUpdateManagerWithTags/main/runbooks/UM-PreTasks.ps1'
     }
   }
 }
@@ -114,7 +114,7 @@ resource Runbook_PostTasks 'Microsoft.Automation/automationAccounts/runbooks@201
     logVerbose: false
     logActivityTrace: 0
     publishContentLink: {
-      uri: 'https://raw.githubusercontent.com/dawlysd/azure-update-management-with-tags/main/runbooks/UM-PostTasks.ps1'      
+      uri: 'https://raw.githubusercontent.com/bszabados-Insight/AzureUpdateManagerWithTags/main/runbooks/UM-PostTasks.ps1'      
     }
   }
 }
@@ -128,7 +128,7 @@ resource Runbook_CleanUpSchedules 'Microsoft.Automation/automationAccounts/runbo
     logVerbose: false
     logActivityTrace: 0
     publishContentLink: {
-      uri: 'https://raw.githubusercontent.com/dawlysd/azure-update-management-with-tags/main/runbooks/UM-CleanUp-Schedules.ps1'        
+      uri: 'https://raw.githubusercontent.com/bszabados-Insight/AzureUpdateManagerWithTags/main/runbooks/UM-CleanUp-Schedules.ps1'        
     }
   }
 }
@@ -142,7 +142,7 @@ resource Runbook_CleanUpSnapshots 'Microsoft.Automation/automationAccounts/runbo
     logVerbose: false
     logActivityTrace: 0
     publishContentLink: {
-      uri: 'https://raw.githubusercontent.com/dawlysd/azure-update-management-with-tags/main/runbooks/UM-CleanUp-Snapshots.ps1'           
+      uri: 'https://raw.githubusercontent.com/bszabados-Insight/AzureUpdateManagerWithTags/main/runbooks/UM-CleanUp-Snapshots.ps1'           
     }
   }
 }
