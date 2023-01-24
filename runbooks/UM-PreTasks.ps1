@@ -15,7 +15,7 @@ param(
 # Start stopped VM before patching ? Possible values: $true or $false. Value must be the same used in UM-PostTasks runbook by $stopStartedVmEnable variable
 $startStopppedVmEnabled = $true
 
-# Snapshot before patching ? Possible values: $true or $false.
+# Snapshot before patching ? Possible values: $true or $false..
 $snapshotEnabled = $false
 
 # Snapshot prefix to use. Must be the same used on UM-CleanUp-Snapshots.ps1 Runbook
