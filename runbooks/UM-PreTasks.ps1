@@ -16,7 +16,7 @@ param(
 $startStopppedVmEnabled = $true
 
 # Snapshot before patching ? Possible values: $true or $false.
-$snapshotEnabled = $true
+$snapshotEnabled = $false
 
 # Snapshot prefix to use. Must be the same used on UM-CleanUp-Snapshots.ps1 Runbook
 $snapshotPrefix = "UpdateMngmnt_snapshot_"
